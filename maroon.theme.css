@@ -1,4 +1,4 @@
-//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style","author":"phit","version":"0.3"}*//{}
+//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"0.4"}*//{}
 
 .guilds-wrapper,
 #voice-connection .btn,
@@ -24,7 +24,11 @@
 }
 
 .theme-dark .friends-table .messages .divider:not(.red) div,
-.theme-dark .messages-wrapper .messages .divider:not(.red) div,
+.theme-dark .messages-wrapper .messages .divider:not(.red) div {
+	background: #d6c5c5;
+    height: 2px;
+}
+
 .user-popout .body,
 .user-popout .footer,
 .theme-dark .search-results-wrap .channel-separator .channel-name {
@@ -39,7 +43,7 @@
 
 .theme-dark .friends-table .messages .divider:not(.red) span,
 .theme-dark .messages-wrapper .messages .divider:not(.red) span {
-    color: #a3839f;
+    color: #ceb0b0;
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar {
@@ -339,4 +343,10 @@
 
 .theme-dark.context-menu .item-subMenu:hover {
     background: url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat rgba(0, 0, 0, 0.2);
+}
+
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(255, 255, 255, .08);
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
