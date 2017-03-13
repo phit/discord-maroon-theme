@@ -32,6 +32,7 @@
 }
 
 .account .btn,
+.account .btn:active,
 .theme-dark .channel-members-loading {
     background: #49394b;
 }
@@ -336,6 +337,6 @@
     background: url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat rgba(0, 0, 0, 0.1);
 }
 
-.theme-dark .channel-members-loading {
-    background-color: #fff;
+.theme-dark.context-menu .item-subMenu:hover {
+    background: url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat rgba(0, 0, 0, 0.2);
 }
