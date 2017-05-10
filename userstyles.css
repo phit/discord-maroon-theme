@@ -24,7 +24,7 @@
 
 .theme-dark .friends-table .messages .divider:not(.red) div,
 .theme-dark .messages-wrapper .messages .divider:not(.red) div {
-	background: #d6c5c5;
+	background: #b79c9c;
     height: 2px;
 }
 
@@ -42,7 +42,7 @@
 
 .theme-dark .friends-table .messages .divider:not(.red) span,
 .theme-dark .messages-wrapper .messages .divider:not(.red) span {
-    color: #ceb0b0;
+    color: #989898;
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar {
