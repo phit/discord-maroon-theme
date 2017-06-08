@@ -1,6 +1,4 @@
 @-moz-document domain("discordapp.com") {
-//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"0.4"}*//{}
-
 .guilds-wrapper,
 #voice-connection .btn,
 .theme-dark .chat,
