@@ -1,4 +1,4 @@
-//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"0.6"}*//{}
+//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"0.7"}*//{}
 
 .guilds-wrapper,
 #voice-connection .btn,
@@ -12,7 +12,9 @@
 .theme-dark .messages-wrapper,
 .theme-dark .messages-wrapper .messages .divider span,
 .theme-dark .messages-wrapper .messages .divider:before,
-.need-help-modal .header {
+.need-help-modal .header,
+.channels-wrap,
+.contentSelectedText-3j5CXt{
     background-color: #3e313c;
 }
 
@@ -31,7 +33,9 @@
 
 .user-popout .body,
 .user-popout .footer,
-.theme-dark .search-results-wrap .channel-separator .channel-name {
+.theme-dark .search-results-wrap .channel-separator .channel-name,
+.container-iksrDt,
+.theme-dark #friends .friends-table .friends-row:hover {
     background: #4d394b;
 }
 
@@ -233,7 +237,9 @@
     background: rgba(255, 255, 255, 0.01);
 }
 
-.guild-channels .channel-text.selected,
+.contentHoveredText-2HYGIY {
+	background-color: rgba(255, 255, 255, 0.01);
+}
 .private-channels .channel.selected,
 .private-channels .search-result.selected,
 .private-channels .search-result:hover {
@@ -280,26 +286,24 @@
 }
 
 .private-channels,
+.container-RYiLUQ,
 .search-bar {
     background-color: #4d394b;
     box-shadow: 0 1px 0 #4d394b, inset 0 -1px 0 rgba(0,0,0,.1);
 }
 
-.private-channels .channel.selected .icon-friends {
-    background-color: #808080 !important;
-}
 
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
     background-color: #8b768e;
     color: #fff;
 }
 
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected){
     background-color: #958298;
 }
 
-.theme-dark #friends .friends-table .friends-row:hover {
-    background: #4d394b;
+.private-channels .channel:hover a {
+    background: rgba(0,0,0,0);
     border: 0;
     border-radius: 1px;
     box-shadow: none;
@@ -349,4 +353,16 @@
     background: rgba(255, 255, 255, .08);
     border-right: 2px solid #fff;
     border-left: 2px solid #fff;
+}
+
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: #9a9a9a;
+}
+
+.private-channels .channel.selected a {
+    background-color: none;
+}
+
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
+    color: #747575;
 }
