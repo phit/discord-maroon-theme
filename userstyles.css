@@ -11,7 +11,9 @@
 .theme-dark .messages-wrapper,
 .theme-dark .messages-wrapper .messages .divider span,
 .theme-dark .messages-wrapper .messages .divider:before,
-.need-help-modal .header {
+.need-help-modal .header,
+.channels-wrap,
+.contentSelectedText-3j5CXt{
     background-color: #3e313c;
 }
 
@@ -30,7 +32,8 @@
 
 .user-popout .body,
 .user-popout .footer,
-.theme-dark .search-results-wrap .channel-separator .channel-name {
+.theme-dark .search-results-wrap .channel-separator .channel-name,
+.container-iksrDt {
     background: #4d394b;
 }
 
@@ -232,7 +235,9 @@
     background: rgba(255, 255, 255, 0.01);
 }
 
-.guild-channels .channel-text.selected,
+.contentHoveredText-2HYGIY {
+	background-color: rgba(255, 255, 255, 0.01);
+}
 .private-channels .channel.selected,
 .private-channels .search-result.selected,
 .private-channels .search-result:hover {
@@ -279,6 +284,7 @@
 }
 
 .private-channels,
+.container-RYiLUQ,
 .search-bar {
     background-color: #4d394b;
     box-shadow: 0 1px 0 #4d394b, inset 0 -1px 0 rgba(0,0,0,.1);
