@@ -1,4 +1,6 @@
 @-moz-document domain("discordapp.com") {
+//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"0.4"}*//{}
+
 .guilds-wrapper,
 #voice-connection .btn,
 .theme-dark .chat,
@@ -33,7 +35,8 @@
 .user-popout .body,
 .user-popout .footer,
 .theme-dark .search-results-wrap .channel-separator .channel-name,
-.container-iksrDt {
+.container-iksrDt,
+.theme-dark #friends .friends-table .friends-row:hover {
     background: #4d394b;
 }
 
@@ -290,21 +293,18 @@
     box-shadow: 0 1px 0 #4d394b, inset 0 -1px 0 rgba(0,0,0,.1);
 }
 
-.private-channels .channel.selected .icon-friends {
-    background-color: #808080 !important;
-}
 
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
     background-color: #8b768e;
     color: #fff;
 }
 
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected){
     background-color: #958298;
 }
 
-.theme-dark #friends .friends-table .friends-row:hover {
-    background: #4d394b;
+.private-channels .channel:hover a {
+    background: rgba(0,0,0,0);
     border: 0;
     border-radius: 1px;
     box-shadow: none;
@@ -354,5 +354,17 @@
     background: rgba(255, 255, 255, .08);
     border-right: 2px solid #fff;
     border-left: 2px solid #fff;
+}
+
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: #9a9a9a;
+}
+
+.private-channels .channel.selected a {
+    background-color: none;
+}
+
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
+    color: #747575;
 }
 }
