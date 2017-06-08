@@ -1,7 +1,6 @@
-//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"0.7"}*//{}
+//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"0.7.1"}*//{}
 
 .guilds-wrapper,
-#voice-connection .btn,
 .theme-dark .chat,
 .theme-dark .chat>.content,
 .theme-dark .chat form .typing,
@@ -14,7 +13,7 @@
 .theme-dark .messages-wrapper .messages .divider:before,
 .need-help-modal .header,
 .channels-wrap,
-.contentSelectedText-3j5CXt{
+.contentSelectedText-3j5CXt {
     background-color: #3e313c;
 }
 
@@ -35,14 +34,9 @@
 .user-popout .footer,
 .theme-dark .search-results-wrap .channel-separator .channel-name,
 .container-iksrDt,
-.theme-dark #friends .friends-table .friends-row:hover {
-    background: #4d394b;
-}
-
-.account .btn,
-.account .btn:active,
+.theme-dark #friends .friends-table .friends-row:hover,
 .theme-dark .channel-members-loading {
-    background: #49394b;
+    background: #4d394b;
 }
 
 .theme-dark .friends-table .messages .divider:not(.red) span,
@@ -140,18 +134,11 @@
     color: #afa8ae !important;
 }
 
-.emoji-picker .scroller-wrap.fade .scroller::-webkit-scrollbar-thumb {
-    background-color: #61485e !important;
-    border-color: #4d394b !important;
-}
-
-.emoji-picker .scroller-wrap.fade .scroller::-webkit-scrollbar-track-piece,
-.emoji-picker .scroller-wrap.fade:hover .scroller::-webkit-scrollbar-track-piece{
+.ui-scroller-fade .scroller:hover::-webkit-scrollbar-thumb, .ui-scroller-fade .scroller:hover::-webkit-scrollbar-track, .ui-scroller-fade:hover::-webkit-scrollbar-thumb, .ui-scroller-fade:hover::-webkit-scrollbar-track {
     background-color: #4d394b !important;
     border-color: #4d394b !important;
     border-radius: 0;
 }
-
 
 .option-popout .btn-item {
     color: #cac6be;
@@ -240,6 +227,7 @@
 .contentHoveredText-2HYGIY {
 	background-color: rgba(255, 255, 255, 0.01);
 }
+
 .private-channels .channel.selected,
 .private-channels .search-result.selected,
 .private-channels .search-result:hover {
@@ -258,12 +246,6 @@
     background-color: #ad93aa !important;
 }
 
-#voice-connection {
-    background: #4d394b;
-    border-top: 2px solid #5f485c;
-    border-bottom: 1px solid #5f485c;
-}
-
 .slider-bar-fill {
     background: #5f485c;
 }
@@ -273,16 +255,6 @@
     background: #4d394b;
     border: 0;
     border-top: 1px solid #4d394b;
-}
-
-.account .btn-deafen, .account .btn-mute,
-#voice-connection .btn-info {
-    border-right: 1px solid #5f485c;
-}
-
-.account .btn-group,
-#voice-connection .btn-group {
-    border: 1px solid #5f485c;
 }
 
 .private-channels,
@@ -304,9 +276,6 @@
 
 .private-channels .channel:hover a {
     background: rgba(0,0,0,0);
-    border: 0;
-    border-radius: 1px;
-    box-shadow: none;
 }
 
 .theme-dark .search-results-wrap .search-result:before {
@@ -365,4 +334,18 @@
 
 .nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
     color: #747575;
+}
+
+.connecting {
+    background: radial-gradient(#292b30, #292b30, #4d394b);
+}
+
+/* betterdiscord only */
+#bd-customcss-detach-container {
+    background-color: #3e313c;
+    padding-top: 55px;
+}
+
+#bd-customcss-detach-editor {
+    border-top: 1px solid rgb(77, 57, 75);;
 }
