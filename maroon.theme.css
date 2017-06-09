@@ -1,8 +1,28 @@
-//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"1.0.0"}*//{}
+//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"1.0.1"}*//{}
 
 /* Chat Text Bar */
 .theme-dark .chat>.content {
     background-color: #3e313c;
+}
+
+.theme-dark .channel-textarea-autocomplete-inner {
+    background-color: #3e313c;
+}
+
+.theme-dark .channel-textarea-autocomplete-inner header {
+    border-bottom-color: #3e313c;
+}
+
+.theme-dark .channel-textarea-autocomplete-inner .avatar-small .status {
+    border-color: #3e313c
+}
+
+.theme-dark .channel-textarea-autocomplete-inner ul li.active {
+    background: hsla(0, 0%, 0%, .1);
+}
+
+.theme-dark .channel-textarea-autocomplete-inner ul li.active .status {
+    border-color: #3e313c
 }
 
 /* Top Bar */
@@ -535,6 +555,34 @@
 
 .search-popout .results-group:before {
     border-top: 1px solid #5f485c;
+}
+
+/* User Popout */
+.user-popout .body {
+    background: #3e313c;
+}
+
+.user-popout .footer {
+    background: #3e313c;
+    border-top: 1px solid #5f485c;
+}
+
+.user-popout .body .section .label {
+    color: hsla(0,0%,100%,.7);
+}
+
+.member-roles .member-role {
+    background-color: #3e313c;
+    border: 1px solid #5f485c;
+    color: hsla(0,0%,100%,.7);
+}
+
+.note textarea {
+    color: hsla(0,0%,100%,.7);
+}
+
+.note textarea:focus {
+    background: #4d394b;
 }
 
 /* Seachbar */
