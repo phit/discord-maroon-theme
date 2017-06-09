@@ -103,6 +103,10 @@
     color: #ffffff;
 }
 
+.theme-dark .message-group .embed-wrapper .embed-color-pill {
+    background-color: #ad93aa;
+}
+
 /* Channel Bar */
 .channels-wrap{
 	background-color: #3e313c;
@@ -497,6 +501,20 @@
 
 .popout-menu .popout-menu-item {
     color: hsla(0,0%,100%,.8);
+}
+
+/* Small Popout */
+.small-popout-box {
+    background: #4d394b;
+    border: 1px solid #4d394b;
+}
+
+.option-popout .btn-item {
+    color: #cac6be;
+}
+
+.option-popout .btn-item:hover {
+    color: #fffefe;
 }
 
 /* Search Popout */
