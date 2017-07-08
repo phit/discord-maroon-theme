@@ -1,0 +1,733 @@
+/* Chat Text Bar */
+.theme-dark .chat>.content {
+    background-color: #3e313c;
+}
+
+.theme-dark .channel-textarea-autocomplete-inner {
+    background-color: #3e313c;
+}
+
+.theme-dark .channel-textarea-autocomplete-inner header {
+    border-bottom-color: #3e313c;
+}
+
+.theme-dark .channel-textarea-autocomplete-inner .avatar-small .status {
+    border-color: #3e313c
+}
+
+.theme-dark .channel-textarea-autocomplete-inner ul li.active {
+    background: hsla(0, 0%, 0%, .1);
+}
+
+.theme-dark .channel-textarea-autocomplete-inner ul li.active .status {
+    border-color: #3e313c
+}
+
+/* Top Bar */
+.theme-dark .chat {
+    background-color: #3e313c;
+}
+
+.chat>.title-wrap.title-wrap-dark {
+    border-bottom: 1px solid #4d394b;
+    box-shadow: none;
+}
+
+/* Friends Top Bar */
+.theme-dark #friends .friends-header {
+    background-color: #3e313c;
+    border-bottom: 1px solid #4d394b;
+}
+
+.theme-dark #friends {
+	background-color: #3e313c;
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+	background-color: #ad93aa;
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+	background-color: #968094;
+}
+
+/* Main Chat Area */
+.chat .welcome-message h1 {
+    color: #f6f6e1;
+}
+
+.chat .welcome-message p {
+    color: hsla(0,0%,100%,.7);
+}
+
+.theme-dark .friends-table,
+.theme-dark .messages-wrapper {
+    background-color: #3e313c;
+}
+
+.theme-dark .chat form .typing {
+    background-color: #3e313c;
+}
+
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(255, 255, 255, .08);
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
+.theme-dark .friends-table .messages .divider:before,
+.theme-dark .friends-table .messages .divider span,
+.theme-dark .messages-wrapper .messages .divider:before,
+.theme-dark .messages-wrapper .messages .divider span {
+    background-color: #3e313c
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) span,
+.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: hsla(0,0%,100%,.6);
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) div,
+.theme-dark .messages-wrapper .messages .divider:not(.red) div {
+	background: hsla(0,0%,100%,.4);
+    height: 2px;
+}
+
+.theme-dark .reaction.reaction-me .reaction-count {
+    color: hsla(0,0%,100%,.5);
+}
+
+.theme-dark .reaction.reaction-me {
+    background: #4d394b;
+}
+
+.chat .new-messages-bar {
+    background-color: #352c35;
+}
+
+.chat .new-messages-bar button:last-child {
+    color: #ffffff;
+}
+
+.theme-dark .message-group .embed-wrapper .embed-color-pill {
+    background-color: #ad93aa;
+}
+
+/* Channel Bar */
+.channels-wrap{
+	background-color: #3e313c;
+}
+
+.nameDefault-Lnjrwm {
+	color: hsla(0,0%,100%,.9);
+}
+
+.container-RYiLUQ {
+    background-color: #4d394b;
+    box-shadow: none;
+}
+
+.contentSelectedText-3j5CXt {
+    background-color: #3e313c;
+}
+
+.contentHoveredText-2HYGIY,
+.contentHoveredVoice-3qGNKh:active,
+.contentSelectedVoice-gTtYM9:active {
+    background-color: #443442;
+}
+
+.nameDefaultText-QoumjC,
+.nameDefaultVoice-1swZoh,
+.nameLockedText-2fGz07,
+.nameLockedVoice-wNOMNa {
+    color: hsla(0,0%,100%,.7);
+}
+
+.nameMutedText-1YDcP-,
+.nameMutedVoice-26k4cP {
+    color: hsla(0,0%,100%,.4);
+}
+
+.userHovered-3tfm93:active {
+    background-color: #443442;
+}
+
+.nameDefault-1I0lx8 {
+    color: hsla(0,0%,100%,.5);
+}
+
+/* Friendlist Bar */
+.private-channels {
+    background-color: #4d394b;
+    border-bottom: 2px solid #453344;
+}
+
+.private-channels .channel.selected a {
+    color: hsla(0,0%,100%,.7);
+    background-color: #3e313c;
+}
+
+.private-channels .channel:hover a {
+	background-color: #443442;
+}
+
+.private-channels .channel .channel-name {
+	opacity: .7;
+}
+
+.search-bar {
+    background-color: #4d394b;
+}
+
+/* Account & Voice Controls */
+.container-iksrDt {
+    background: #4d394b;
+    box-shadow: 0 1px 0 #4d394b, inset 0 1px 0 rgba(0,0,0,.1);
+}
+
+.container-3lnMWU {
+	border: none;
+}
+
+/* Voice Call */
+.theme-dark .private-channel-call {
+    background-color: #3e313c;
+}
+
+.theme-dark .ui-video {
+    background-color: #3e313c;
+}
+
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+    border-color: #352c35;
+    background-color: #352c35;
+}
+
+/* Guilds Sidebar */
+.guilds-wrapper {
+    background-color: #3e313c;
+}
+
+.guilds-wrapper .guilds .friends-online {
+    color: hsla(0,0%,100%,.7);
+}
+
+.guilds-wrapper .guild-separator:after {
+    background: hsla(0,0%,100%,.7);
+}
+
+.guilds-wrapper .guilds-add {
+    background: #61485e;
+    color: #b1acb1;
+    border: 1px dashed #b1acb1;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: #ad93aa !important;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    color: #000;
+}
+
+/* Userlist */
+.theme-dark .channel-members {
+    background-color: #3e313c;
+    border-left: 1px solid #4d394b;
+}
+
+.theme-dark .channel-members .member.popout-open,
+.theme-dark .channel-members .member:hover {
+    background: linear-gradient(to right, #443442 85%, #3e313c)
+}
+
+.theme-dark .channel-members-loading {
+	background-color: #3e313c;
+}
+/* Friends Area */
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
+	background: #3e313c;
+    border-bottom: 1px solid #4d394b;
+}
+
+.theme-dark .add-friend-input-wrapper {
+    border-color: #4d394b;
+}
+
+#friends .btn {
+	background-color: #ad93aa;
+}
+
+#friends .btn:hover {
+	background-color: #968094;
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
+	background-color: #4d394b;
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
+    background-color: #ad93aa;
+    color: #fff8f9;
+}
+
+.theme-dark #friends .friends-table .friends-row:hover {
+	background-color: #4d394b;
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+	background-color: #ad93aa;
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+	background-color: #968094;
+}
+
+/* Search Results */
+.theme-dark .search-results-wrap {
+    background-color: #3e313c;
+    border-left: 1px solid #4d394b;
+}
+
+.theme-dark .search-results-wrap .search-header {
+	background-color: #3e313c;
+    box-shadow: none;
+    border-bottom: 1px solid #4d394b;
+}
+
+.theme-dark .search-results-wrap .search-header .tab, .theme-dark .search-results-wrap .search-header .total-results {
+    color: #fff;
+}
+
+.theme-dark .search-results-wrap .search-header .tab.selected, .theme-dark .search-results-wrap .search-header .tab:hover {
+    border-bottom: 2px solid #ad93aa;
+}
+
+.theme-dark .search-results-wrap .channel-separator .channel-name {
+	background-color: #3e313c;
+}
+
+.theme-dark .search-results-wrap .search-result:before {
+    background-image: none;
+}
+
+.theme-dark .search-results-wrap .search-result:after {
+    background-image: none;
+}
+
+.search-results-wrap .search-result {
+	border: 1px solid #4d394b;
+}
+
+.theme-dark .search-results-wrap .search-result .search-result-message.hit {
+    border: 1px solid #4d394b;
+    border-radius: 0;
+}
+.theme-dark .search-results-wrap .search-result .hit {
+    background-color: #4d394b;
+	box-shadow: 0 0 3px 3px #4d394b;
+}
+
+.theme-dark .search-results-wrap .action-buttons .jump-button {
+    background-color: #ad93aa;
+    color: hsla(0,0%,100%,.6);
+}
+
+/* Emoji Picker */
+.emoji-picker {
+	background-color: #4d394b;
+    border-radius: 8px;
+}
+
+.emoji-picker .category {
+	background-color: #4d394b;
+}
+
+.emoji-picker .header {
+    border-bottom: 1px solid #453344;
+}
+
+.emoji-picker .categories .item.selected {
+    border-bottom-color: #afa8ae;
+}
+
+.diversity-selector .popout {
+    background: #4d394b;
+    border: 1px solid #635362;
+}
+
+.emoji-picker .dimmer.visible {
+    background-color: hsla(0, 0%, 100%, 0);
+    border-radius: 8px;
+}
+
+/* Scrollbars */
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb,
+.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: #4d394b;
+    border-color: #3e313c;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece,
+.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: #3e313c;
+    border-color: #3e313c
+}
+
+.scroller-wrap.dark .scroller::-webkit-scrollbar-thumb {
+    background-color: #61485e;
+    border-color: transparent;
+}
+
+.emoji-picker .scroller::-webkit-scrollbar-thumb {
+    background-color: #61485e !important;
+    border-color: transparent;
+}
+
+.scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+    background-color: #3e313c;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    border: 3px solid #4d394b;
+}
+
+.emoji-picker .scroller::-webkit-scrollbar-track-piece {
+	background-color: #4d394b;
+}
+
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar {
+    width: 8px;
+}
+
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    background-color: #4d394b!important;
+    border: 0!important;
+}
+
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: transparent!important;
+}
+
+/* Tooltips */
+.tooltip {
+    background-color: #4d394b;
+    color: hsla(0,0%,100%,.7);
+}
+
+.tooltip.tooltip-top:after {
+    border-top-color: #4d394b;
+}
+
+.tooltip.tooltip-bottom:after {
+    border-bottom-color: #4d394b;
+}
+
+.tooltip.tooltip-left:after {
+    border-left-color: #4d394b;
+}
+
+.tooltip.tooltip-right:after {
+    border-right-color: #4d394b;
+}
+
+.tooltip.tooltip-error,
+.tooltip.tooltip-error.tooltip-top:after,
+.tooltip.tooltip-error.tooltip-bottom:after,
+.tooltip.tooltip-error.tooltip-left:after,
+.tooltip.tooltip-error.tooltip-right:after {
+    border-right-color: #f04747
+}
+
+.tooltip.tooltip-success,
+.tooltip.tooltip-success.tooltip-top:after,
+.tooltip.tooltip-success.tooltip-bottom:after,
+.tooltip.tooltip-success.tooltip-left:after,
+.tooltip.tooltip-success.tooltip-right:after {
+    border-right-color: #43b581
+}
+
+.tooltip.tooltip-warning,
+.tooltip.tooltip-warning.tooltip-top:after,
+.tooltip.tooltip-warning.tooltip-bottom:after,
+.tooltip.tooltip-warning.tooltip-left:after,
+.tooltip.tooltip-warning.tooltip-right:after {
+    background-color: #faa61a
+}
+
+/* Popout */
+.theme-dark .themed-popout {
+    background-color: #4d394b;
+    border: 1px solid hsla(0,0%,75%,.2);
+}
+
+.theme-dark .themed-popout .header {
+    background-color: #4d394b;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .empty-placeholder .body {
+    color: hsla(0,0%,100%,.6);
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
+    border: 1px solid hsla(0,0%,75%,.2);
+    background-color: #3e313c;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
+    border: 1px solid hsla(0,0%,75%,.4);
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    box-shadow: 0 0 6px 4px #4d394b;
+    background-color: #4d394b;
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+    background-color: #ad93aa;
+}
+
+.theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
+	color: hsla(0,0%,100%,.7);
+}
+
+.popout-menu {
+    background: #4d394b;
+}
+
+.popout-menu .popout-menu-item.invite {
+    color: hsla(0,0%,100%,.9);
+}
+
+.popout-menu .popout-menu-item:hover.invite {
+    color: #afb1ff;
+}
+
+.popout-menu .popout-menu-item:hover {
+    background-color: #3e313c;
+    color: #fff;
+}
+
+.popout-menu .popout-menu-separator {
+    border-bottom: 1px solid #3e313c;
+}
+
+.popout-menu .popout-menu-item {
+    color: hsla(0,0%,100%,.8);
+}
+
+/* Small Popout */
+.small-popout-box {
+    background: #4d394b;
+    border: 1px solid #4d394b;
+}
+
+.option-popout .btn-item {
+    color: #cac6be;
+}
+
+.option-popout .btn-item:hover {
+    color: #fffefe;
+}
+
+/* Search Popout */
+.theme-dark .search-popout {
+    box-shadow: none;
+}
+
+.search-popout {
+    background-color: #4d394b;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-popout .results-group .header {
+    color: #cacbce;
+}
+
+.search-popout .option.selected {
+    background-color: #3e313c;
+}
+
+.search-popout .search-option .filter,
+.search-popout .option.user .displayed-nick,
+.search-popout .option .non-text {
+    color: hsla(0,0%,100%,.4);
+}
+
+.search-popout .search-option .answer,
+.search-popout .option .answer,
+.search-popout .option strong {
+    color: hsla(0,0%,100%,.7);
+}
+
+.search-popout .option:after,
+.search-popout .option.selected:after {
+    background: none;
+}
+
+.search-popout .date-picker .date-picker-hint {
+    border: none;
+}
+.search-popout .date-picker .date-picker-hint .hint {
+    color: #caccce
+}
+.search-popout .date-picker .date-picker-hint .hint-value {
+    color: #fff;
+    background-color: #3e313c;
+}
+.search-popout .date-picker .date-picker-hint .hint-value:hover {
+    background-color: #3e313c;
+}
+
+.search-popout .search-query {
+    border-bottom: 1px solid #5f485c;
+}
+
+.search-popout .results-group:before {
+    border-top: 1px solid #5f485c;
+}
+
+/* User Popout */
+.user-popout .body {
+    background: #3e313c;
+}
+
+.user-popout .footer {
+    background: #3e313c;
+    border-top: 1px solid #5f485c;
+}
+
+.user-popout .body .section .label {
+    color: hsla(0,0%,100%,.7);
+}
+
+.member-roles .member-role {
+    background-color: #3e313c;
+    border: 1px solid #5f485c;
+    color: hsla(0,0%,100%,.7);
+}
+
+.note textarea {
+    color: hsla(0,0%,100%,.7);
+}
+
+.note textarea:focus {
+    background: #4d394b;
+}
+
+/* Seachbar */
+.search-bar.search-bar-light {
+	background-color: #4d394b;
+}
+
+.search-bar.search-bar-light input::-webkit-input-placeholder {
+    color: #afa8ae;
+}
+
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Context Menu */
+.theme-dark.context-menu,
+.theme-dark.context-menu .context-menu {
+    background: #3e313c;
+    box-shadow: none;
+    border: 1px solid #5f485c;
+}
+
+.theme-dark.context-menu .item:hover {
+    background: rgba(24,25,28,.3);
+}
+
+.theme-dark.context-menu .item-subMenu {
+    background: url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat rgba(0, 0, 0, 0.1);
+}
+
+.theme-dark.context-menu .item-subMenu:hover {
+    background: url(/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat rgba(0, 0, 0, 0.2);
+}
+
+.theme-dark.context-menu .checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: #5f485c;
+    border-color: #5f485c;
+}
+
+/* Calendar */
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker {
+    background-color: #3e313c;
+    border-radius: 0;
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__header, .theme-light .ui-calendar-picker .react-datepicker__header {
+    background-color: #3e313c;
+    border-color: #4d394b;
+    border-top: none;
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name, .theme-light .ui-calendar-picker .react-datepicker__day-name {
+    border-bottom-color: #4d394b;
+    color: hsla(0,0%,100%,.7);
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .ui-calendar-picker .react-datepicker__day:hover {
+    color: #fff;
+    background-color: #ad93aa;
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--outside-month, .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day--outside-month {
+    background-color: #352c35;
+    color: rgba(255,255,255,.3);
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__day {
+    border-top-color: #4d394b;
+    border-left-color: #4d394b;
+    color: rgba(255,255,255,.9);
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type, .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type {
+    border-right-color: #4d394b;
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week:last-of-type .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__week:last-of-type .react-datepicker__day {
+    border-bottom-color: #4d394b;
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after {
+    background-color: #ad93aa;
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--next, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous {
+    border-color: #4d394b;
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: rgba(0,0,0,.1);
+    color: rgba(255,255,255,.3);
+}
+
+/* Misc */
+.theme-dark .layer, .theme-dark .layers {
+	background-color: #3e313c;
+}
+
+.slider-bar-fill {
+    background: #ad93aa
+}
+
+.connecting {
+    background: radial-gradient(#292b30, #292b30, #4d394b);
+}
+
+/* betterdiscord only */
+#bd-customcss-detach-container {
+    background-color: #3e313c;
+    padding-top: 55px;
+}
+
+#bd-customcss-detach-editor {
+    border-top: 1px solid rgb(77, 57, 75);;
+}
