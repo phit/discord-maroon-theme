@@ -1,4 +1,4 @@
-//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"1.0.2"}*//{}
+//META{"name":"maroon","description":"Based on Slack's aubergine/maroon style, enable Dark Mode in Settings > Appearence for this theme!","author":"phit","version":"1.0.3"}*//{}
 
 /* Chat Text Bar */
 .theme-dark .chat>.content {
@@ -54,6 +54,14 @@
 }
 
 /* Main Chat Area */
+.chat .welcome-message h1 {
+    color: #f6f6e1;
+}
+
+.chat .welcome-message p {
+    color: hsla(0,0%,100%,.7);
+}
+
 .theme-dark .friends-table,
 .theme-dark .messages-wrapper {
     background-color: #3e313c;

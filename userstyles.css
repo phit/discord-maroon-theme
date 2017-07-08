@@ -53,6 +53,14 @@
 }
 
 /* Main Chat Area */
+.chat .welcome-message h1 {
+    color: #f6f6e1;
+}
+
+.chat .welcome-message p {
+    color: hsla(0,0%,100%,.7);
+}
+
 .theme-dark .friends-table,
 .theme-dark .messages-wrapper {
     background-color: #3e313c;
