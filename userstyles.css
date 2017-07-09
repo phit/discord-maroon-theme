@@ -411,6 +411,11 @@
     background-color: transparent!important;
 }
 
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: #3e313c;
+    border-color: transparent;
+}
+
 /* Tooltips */
 .tooltip {
     background-color: #4d394b;
@@ -656,6 +661,45 @@
     border-color: #5f485c;
 }
 
+/* Notifications Modal */
+.deprecated-settings-modal .settings-inner {
+    background-color: #3e313c;
+}
+
+.deprecated-settings-modal .settings-actions {
+    background-color: #3e313c;
+    border-top: 1px solid hsla(0,0%,100%,.06);
+}
+
+.form.deprecated .control-group .help-text {
+    color: hsla(0,0%,100%,.6);
+}
+
+.form.deprecated .btn-primary {
+    background-color: #61485e;
+    color: hsla(0,0%,100%,.7);
+}
+
+.form.deprecated .btn-primary:hover {
+    background-color: #968094;
+}
+
+.notification-settings-modal.deprecated-settings-modal {
+    color: hsla(0,0%,100%,.7);
+}
+
+.channel-notification-settings .content label {
+    color: hsla(0,0%,100%,.7);
+}
+
+.notification-settings-modal .notification-settings-modal-channel-settings-list {
+    box-shadow: 0 -1px hsla(0,0%,100%,.06);
+}
+
+.channel-notification-settings {
+    border-bottom: 1px solid hsla(0,0%,100%,.06);
+}
+
 /* Calendar */
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker {
     background-color: #3e313c;
@@ -725,5 +769,27 @@
 
 .spinner-wandering-cubes .spinner-item {
     background-color: hsla(0,0%,100%,.7);
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: #61485e;
+    border-color: #61485e;
+}
+
+.theme-dark .radio .radio-inner span:after {
+    background-color: #3e313c;
+}
+
+.theme-dark .radio:hover span:after {
+    background-color: #3e313c;
+}
+
+.theme-dark .radio .radio-inner {
+    background-color: #61485e;
+    border-color: #332f33;
+}
+
+.create-guild-container.deprecated .action:hover.create .btn {
+    background-color: #968094;
 }
 }
