@@ -722,6 +722,10 @@
     background: radial-gradient(#292b30, #292b30, #4d394b);
 }
 
+.spinner-wandering-cubes .spinner-item {
+    background-color: hsla(0,0%,100%,.7);
+}
+
 /* betterdiscord only */
 #bd-customcss-detach-container {
     background-color: #3e313c;
