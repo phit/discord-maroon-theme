@@ -23,6 +23,14 @@
     border-color: #3e313c
 }
 
+.channel-textarea-guard button {
+    background-color: #4d394b;
+}
+
+.channel-textarea-guard button:hover {
+    background-color: #6d5d6c;
+}
+
 /* Top Bar */
 .theme-dark .chat {
     background-color: #3e313c;
