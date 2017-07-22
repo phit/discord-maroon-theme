@@ -81,6 +81,9 @@
 }
 
 .message-group .mentioned .message-text:after {
+    position: absolute;
+    top: 0;
+    left: 0;
     border-left: 2px solid #ffffff;
 }
 
