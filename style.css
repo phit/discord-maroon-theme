@@ -78,7 +78,10 @@
 .theme-dark .message-group .mentioned .message-text {
     background: rgba(255, 255, 255, .08);
     border-right: 2px solid #fff;
-    border-left: 2px solid #fff;
+}
+
+.message-group .mentioned .message-text:after {
+    border-left: 2px solid #ffffff;
 }
 
 .theme-dark .friends-table .messages .divider:before,
