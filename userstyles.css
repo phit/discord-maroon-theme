@@ -354,6 +354,18 @@
     color: hsla(0,0%,100%,.6);
 }
 
+.theme-dark .search-results-wrap .search-result.expanded {
+    border: 1px solid #4d394b;
+}
+
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+    border-top: 1px solid #4d394b;
+    border-bottom: 1px solid #4d394b;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #4d394b;
+}
+
 /* Emoji Picker */
 .emoji-picker {
 	background-color: #4d394b;
