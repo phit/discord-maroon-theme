@@ -182,7 +182,7 @@
     color: hsla(0,0%,100%,.5);
 }
 
-/* Friendlist Bar */
+/* Private Channels Bar */
 .private-channels {
     background-color: #4d394b;
     border-bottom: 2px solid #453344;
@@ -204,6 +204,37 @@
 .search-bar {
     background-color: #4d394b;
 }
+
+.search-bar-tag {
+    background: #4d394b;
+}
+
+.theme-dark .private-channel-recipients-invite .friend {
+    color: #fff;
+    background: #3e313c;
+}
+
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+    background: -webkit-gradient(linear,left top,right top,color-stop(85%,#3e313c),to(#4d394b));
+    background: linear-gradient(90deg,#3e313c 85%,#4d394b);
+}
+
+.private-channel-recipients-invite .body .scroller {
+    background-color: #3e313c;
+}
+
+.private-channel-recipients-invite .footer button {
+    background-color: #3e313c;
+}
+
+.private-channel-recipients-invite .footer button:hover {
+    background-color: #3a2f38;
+}
+
+.private-channel-recipients-invite .footer button:disabled:hover {
+    background-color: #382c36;
+}
+
 
 /* Account & Voice Controls */
 .container-iksrDt {
@@ -458,6 +489,21 @@
     border-color: transparent;
 }
 
+.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #4d394b;
+    border-color: transparent;
+}
+
+.scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+    background-color: #3e313c;
+}
+
+.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-color: #3e313c;
+}
+
+
 /* Tooltips */
 .tooltip {
     background-color: #4d394b;
@@ -506,8 +552,12 @@
 
 /* Popout */
 .theme-dark .themed-popout {
-    background-color: #4d394b;
+    background-color: #3e313c;
     border: 1px solid hsla(0,0%,75%,.2);
+}
+
+.theme-dark .themed-popout .footer {
+    background-color: #4d394b;
 }
 
 .theme-dark .themed-popout .header {
