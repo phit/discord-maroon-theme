@@ -139,6 +139,23 @@
     background-color: #ad93aa;
 }
 
+.theme-dark .friends-table .messages .message-group-blocked,
+.theme-dark .messages-wrapper .messages .message-group-blocked {
+    background: #4d394b;
+    border-color: #423540;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn,
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+    background: #352c34;
+    color: #8a8e94;
+}
+
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover,
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: #312a30;
+}
+
 /* Channel Bar */
 .channels-wrap{
 	background-color: #3e313c;
@@ -502,6 +519,11 @@
 .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-track {
     background-color: transparent;
     border-color: #3e313c;
+}
+
+.scrollerFade-28dRsO .scroller-fzNley:hover::-webkit-scrollbar-thumb,
+.scrollerFade-28dRsO .scroller-fzNley:hover::-webkit-scrollbar-track {
+    visibility: hidden;
 }
 
 
