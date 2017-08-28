@@ -937,4 +937,49 @@
 .avatarNormal-3luwna {
     border-color: #3e313c;
 }
+
+/* notices */
+.channel-notices .channel-notice.invite {
+    background: #3e313c url(/assets/bf625d222187f542b9d7179109422e2c.svg) no-repeat center 20px;
+}
+
+.channel-notices .channel-notice .message .btn {
+    background-color: #4c384a;
+    border: 1px solid rgb(93, 76, 92);
+}
+
+.theme-dark .message-group.is-local-bot-message {
+    background-image: -webkit-gradient(linear,left top,right top,color-stop(80%,rgba(62,49,60,30%)),to(#4c384a));
+    background-image: linear-gradient(90deg,rgb(62, 49, 60) 80%,#4c384a);
+    border-color: #4c384a;
+    -webkit-box-shadow: -20px 0 #3e313c,20px 0 #3e313c,-20px -1px 0 0 #463944,-20px 1px 0 #3e313c,20px 1px 0 #3e313c,20px -1px 0 #3e313c;
+    box-shadow: -20px 0 #3e313c,20px 0 #3e313c,-20px -1px 0 0 #463944,-20px 1px 0 #3e313c,20px 1px 0 #3e313c,20px -1px 0 #3e313c;
+}
+
+/* firefox fixes */
+.scrollbar-2so3Ly {
+    background-color: #4d394b !important;
+}
+
+.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar, .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar::after, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar::after {
+    background-color: #3e313c;
+}
+
+.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .track, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .track {
+    background-color: #3e313c;
+    border-color: #3e313c;
+}
+
+.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb {
+    background-color: #3e313c;
+    border-color: #3e313c;
+}
+
+.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb::after, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb::after {
+    background-color: #4c384a;
+}
+
+.pad-3D5tOh {
+    background-color: rgb(62, 49, 60) !important;
+}
 }
