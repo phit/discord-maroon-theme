@@ -1,4 +1,11 @@
 @-moz-document domain("discordapp.com") {
+
+/* Window Menu Bar */
+
+.appMount-14L89u {
+    background-color: #251e24;
+}
+
 /* Chat Text Bar */
 .theme-dark .chat>.content {
     background-color: #3e313c;
@@ -31,30 +38,28 @@
 }
 
 /* Top Bar */
-.theme-dark .chat {
-    background-color: #3e313c;
-}
-
-.chat>.title-wrap.title-wrap-dark {
-    border-bottom: 1px solid #4d394b;
-    box-shadow: none;
+.theme-dark .title-qAcLxz {
+    -webkit-box-shadow: 0 1px 0 #4d394b;
+    background: #3e313c;
+    box-shadow: 0 1px 0 #4d394b;
 }
 
 /* Friends Top Bar */
-.theme-dark #friends .friends-header {
-    background-color: #3e313c;
-    border-bottom: 1px solid #4d394b;
+.theme-dark .headerBar-cxbhPD {
+    -webkit-box-shadow: 0 1px 0 #4d394b;
+    background: #3e313c;
+    box-shadow: 0 1px 0 #4d394b;
 }
 
 .theme-dark #friends {
 	background-color: #3e313c;
 }
 
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
 	background-color: #ad93aa;
 }
 
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
 	background-color: #968094;
 }
 
@@ -69,6 +74,10 @@
 
 .theme-dark .friends-table,
 .theme-dark .messages-wrapper {
+    background-color: #3e313c;
+}
+
+.theme-dark .chat form {
     background-color: #3e313c;
 }
 
@@ -343,11 +352,11 @@
 	background-color: #968094;
 }
 
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
 	background-color: #4d394b;
 }
 
-.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
+.theme-dark #friends .tab-bar .tab-bar-item.selected {
     background-color: #ad93aa;
     color: #fff8f9;
 }
@@ -535,28 +544,33 @@
 
 /* Tooltips */
 .tooltip,
-.tooltip.tooltip-brand {
+.tooltip.tooltip-brand,
+.tooltip.tooltip-black {
     background-color: #4d394b;
     color: hsla(0,0%,100%,.7);
 }
 
 .tooltip.tooltip-top:after,
-.tooltip.tooltip-brand.tooltip-top:after {
+.tooltip.tooltip-brand.tooltip-top:after,
+.tooltip.tooltip-black.tooltip-top:after {
     border-top-color: #4d394b;
 }
 
 .tooltip.tooltip-bottom:after,
-.tooltip.tooltip-brand.tooltip-bottom:after {
+.tooltip.tooltip-brand.tooltip-bottom:after,
+.tooltip.tooltip-black.tooltip-bottom:after {
     border-bottom-color: #4d394b;
 }
 
 .tooltip.tooltip-left:after,
-.tooltip.tooltip-brand.tooltip-left:after {
+.tooltip.tooltip-brand.tooltip-left:after,
+.tooltip.tooltip-black.tooltip-left:after {
     border-left-color: #4d394b;
 }
 
 .tooltip.tooltip-right:after,
-.tooltip.tooltip-brand.tooltip-right:after {
+.tooltip.tooltip-brand.tooltip-right:after,
+.tooltip.tooltip-black.tooltip-right:after {
     border-right-color: #4d394b;
 }
 
