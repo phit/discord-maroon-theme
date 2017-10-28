@@ -545,6 +545,26 @@
     background-color: #4d394b !important;
 }
 
+.scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E, .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E {
+    background-color: #4d394b;
+}
+
+.scrollerThemed-19vinI.themeLight-1WK0Av .scrollbar-2so3Ly .thumb-3VsfAI, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scrollbar-2so3Ly .thumb-3VsfAI, .theme-light .scrollerWrap-2uBjct .scrollbar-2so3Ly .thumb-3VsfAI {
+    background-color: #3e313c;
+}
+
+.scroller-wrap.dark .scrollbar, .scroller-wrap.dark .scrollbar::after {
+    background-color: #3e313c;
+}
+
+.scroller-wrap.dark .scrollbar .thumb {
+    background-color: transparent;
+}
+
+.scroller-wrap.dark .scrollbar .thumb::after {
+    background-color: #4d394b;
+}
+
 /* Tooltips */
 .tooltip,
 .tooltip.tooltip-brand,
