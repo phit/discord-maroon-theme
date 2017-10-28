@@ -999,8 +999,4 @@
 .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb::after, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb::after {
     background-color: #4c384a;
 }
-
-.pad-3D5tOh {
-    background-color: rgb(62, 49, 60) !important;
-}
 }
