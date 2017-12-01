@@ -734,19 +734,16 @@
 }
 
 /* User Popout */
-.user-popout .body {
+.theme-dark .body-3rkFrF, 
+.theme-dark .footer-2J5zqP {
     background: #3e313c;
 }
 
-.user-popout .footer {
-    background: #3e313c;
-    border-top: 1px solid #5f485c;
-}
-
-.user-popout .body .section .label {
+.bodyTitle-yehI7c {
     color: hsla(0,0%,100%,.7);
 }
 
+.theme-dark .rolesList-2YHFg5 .member-role,
 .member-roles .member-role {
     background-color: #3e313c;
     border: 1px solid #5f485c;
@@ -757,8 +754,14 @@
     color: hsla(0,0%,100%,.7);
 }
 
-.note textarea:focus {
-    background: #4d394b;
+.theme-dark .userPopout-4pfA0d .note textarea:focus {
+    background-color: #4d394b;
+}
+
+.theme-dark .quickMessage-28pD5Y {
+    background-color: rgb(76, 56, 74);
+    border-color: #5d4d5d;
+    color: hsla(0,0%,100%,.7);
 }
 
 /* Seachbar */
