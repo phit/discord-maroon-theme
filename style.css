@@ -596,6 +596,19 @@
     background-color: #faa61a
 }
 
+/* New User Popout */
+.topSectionNormal-2LlRG1 {
+    background-color: #3e313c;
+}
+
+.theme-dark .body-3_tdh6 {
+    background-color: #4d394b;
+}
+
+.backdrop-2ohBEd {
+    opacity: 0.4 !important;
+}
+
 /* Popout */
 .theme-dark .themed-popout {
     background-color: #3e313c;
@@ -636,10 +649,13 @@
 	color: hsla(0,0%,100%,.7);
 }
 
+/* Server Settings Dropdown */
+.menu-3BZuDT,
 .popout-menu {
     background: #4d394b;
 }
 
+.item-rK1j5B.invite-YM1l0n,
 .popout-menu .popout-menu-item.invite {
     color: hsla(0,0%,100%,.9);
 }
@@ -648,15 +664,19 @@
     color: #fff;
 }
 
+.item-rK1j5B.invite-YM1l0n:hover,
+.item-rK1j5B:hover,
 .popout-menu .popout-menu-item:hover {
     background-color: #3e313c;
     color: #fff;
 }
 
+.separator-1hpa3S,
 .popout-menu .popout-menu-separator {
     border-bottom: 1px solid #3e313c;
 }
 
+.item-rK1j5B,
 .popout-menu .popout-menu-item {
     color: hsla(0,0%,100%,.8);
 }
