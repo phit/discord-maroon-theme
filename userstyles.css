@@ -172,6 +172,10 @@
     background: rgba(0, 0, 0, 0.1);
 }
 
+.theme-dark .chat .jump-to-present-bar {
+    background-color: rgba(76, 56, 74, 0.7);
+}
+
 /* Channel Bar */
 .channels-wrap{
 	background-color: #3e313c;
