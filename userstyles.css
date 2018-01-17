@@ -176,6 +176,10 @@
     background-color: rgba(76, 56, 74, 0.7);
 }
 
+.theme-dark .chat .jump-to-present-bar:hover {
+    background-color: #4c384a;
+}
+
 .botTagRegular-288-ZL {
     background: #786f77;
 }
