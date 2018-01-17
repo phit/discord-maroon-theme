@@ -81,6 +81,7 @@
     background-color: #3e313c;
 }
 
+.theme-dark .typing-3eiiL_,
 .theme-dark .chat form .typing {
     background-color: #3e313c;
 }
@@ -436,31 +437,41 @@
 }
 
 /* Emoji Picker */
+.emojiPicker-3g68GS,
 .emoji-picker {
 	background-color: #4d394b;
     border-radius: 8px;
 }
 
+.emojiPicker-3g68GS .category-3rCtoh,
 .emoji-picker .category {
 	background-color: #4d394b;
 }
 
+.emojiPicker-3g68GS .stickyHeader-3LjM5X,
 .emoji-picker .header {
     border-bottom: 1px solid #453344;
 }
 
+.emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ,
 .emoji-picker .categories .item.selected {
     border-bottom-color: #afa8ae;
 }
 
+.diversitySelector-O3ea2c .popout-2lja3I,
 .diversity-selector .popout {
     background: #4d394b;
     border: 1px solid #635362;
 }
 
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m,
 .emoji-picker .dimmer.visible {
     background-color: hsla(0, 0%, 100%, 0);
     border-radius: 8px;
+}
+
+.emojiPicker-3g68GS .scroller-2dsok0 .emojiItem-3l4Fa9.selected-1LQfcZ {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Scrollbars */
