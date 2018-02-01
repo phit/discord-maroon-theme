@@ -288,6 +288,7 @@
 
 .container-3lnMWU {
 	border: none;
+    background: #2b232a;
 }
 
 /* Voice Call */
@@ -617,6 +618,37 @@
 .tooltip.tooltip-warning.tooltip-left:after,
 .tooltip.tooltip-warning.tooltip-right:after {
     background-color: #faa61a
+}
+
+/* Generic Modal */
+.theme-dark .modal-3HOjGZ {
+    background-color: #4d394b;
+}
+
+.theme-dark .footer-1PYmcw {
+    background-color: #3e313c;
+}
+
+.theme-dark .subHeader-11w1JS {
+    color: #bfbfbf;
+}
+
+.theme-dark .preview-1mYYph {
+    border-color: #5d4d5d;
+}
+
+.theme-dark .invite-CTGItT {
+    background: rgba(60, 60, 60, 0.4);
+    border-color: #5d4d5d;
+}
+
+.theme-dark .input-2YozMi:focus,
+.theme-dark .input-2YozMi:hover {
+    border-color: #5d4d5d;
+}
+
+.theme-dark .input-2YozMi {
+    border-color: rgba(99, 97, 97, 0.3);
 }
 
 /* Attachment Popout */
