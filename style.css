@@ -619,6 +619,15 @@
     background-color: #faa61a
 }
 
+/* Attachment Popout */
+.theme-dark .attachPopout-gjwHsr {
+    background-color: #4d394b;
+}
+
+.theme-dark .attachPopoutRow-elxASe:hover {
+    background-color: #3e313c;
+}
+
 /* Autocomplete Popout */
 .theme-dark #autocomplete-popout section {
     background-color: #4d394b;
