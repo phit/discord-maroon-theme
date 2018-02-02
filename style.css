@@ -514,7 +514,9 @@
     border-color: transparent;
 }
 
-.scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+.scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track,
+.theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track,
+.theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
     background-color: #3e313c;
 }
 
@@ -544,25 +546,20 @@
     border-color: transparent;
 }
 
-.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb {
-    background-color: #4d394b;
-    border-color: transparent;
-}
-
-.scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
-    background-color: #3e313c;
-}
-
-.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-track {
-    background-color: transparent;
-    border-color: #3e313c;
-}
-
 .scrollerFade-28dRsO .scroller-fzNley:hover::-webkit-scrollbar-thumb,
 .scrollerFade-28dRsO .scroller-fzNley:hover::-webkit-scrollbar-track {
     visibility: hidden;
 }
 
+.emojiPicker-3g68GS .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E,
+.emojiPicker-3g68GS .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E {
+    background-color: #4d394b;
+}
+
+.emojiPicker-3g68GS .scrollerThemed-19vinI.themeLight-1WK0Av .scrollbar-2so3Ly .thumb-3VsfAI,
+.emojiPicker-3g68GS .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scrollbar-2so3Ly .thumb-3VsfAI {
+    background-color: #3e313c;
+}
 
 /* Tooltips */
 .tooltip,
@@ -879,6 +876,15 @@
     box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgb(93, 77, 93);
 }
 
+/* Quickswitcher */
+.theme-dark .quickswitcher-2NdiGJ {
+    background-color: #4d394b;
+}
+
+.theme-dark .input-MwQhcX {
+    background-color: #3e313c;
+}
+
 /* Searchbar */
 .search-bar.search-bar-light {
 	background-color: #4d394b;
@@ -1100,9 +1106,23 @@
     box-shadow: -20px 0 #3e313c,20px 0 #3e313c,-20px -1px 0 0 #463944,-20px 1px 0 #3e313c,20px 1px 0 #3e313c,20px -1px 0 #3e313c;
 }
 
-/* firefox fixes */
+/* Firefox fixes */
 .scrollbar-2so3Ly {
     background-color: #4d394b !important;
+}
+
+.pad-3D5tOh {
+    background-color: #4d394b !important;
+}
+
+.channel-members-wrap .pad-3D5tOh,
+.search-results-wrap .pad-3D5tOh {
+    background-color: #3e313c !important;
+}
+
+.channel-members-wrap .scrollbar-2so3Ly,
+.search-results-wrap .scrollbar-2so3Ly {
+    background-color: #3e313c !important;
 }
 
 .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar, .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar::after, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar::after {
@@ -1123,16 +1143,12 @@
     background-color: #4c384a;
 }
 
-.pad-3D5tOh {
-    background-color: rgb(62, 49, 60) !important;
-}
-
-/* betterdiscord only */
+/* BetterDiscord fixes */
 #bd-customcss-detach-container {
     background-color: #3e313c;
     padding-top: 55px;
 }
 
 #bd-customcss-detach-editor {
-    border-top: 1px solid rgb(77, 57, 75);;
+    border-top: 1px solid rgb(77, 57, 75);
 }
