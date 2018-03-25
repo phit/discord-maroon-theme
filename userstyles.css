@@ -720,6 +720,18 @@
 	color: hsla(0,0%,100%,.7);
 }
 
+.lookFilled-luDKDo.colorBrand-3PmwCE {
+    background-color: #ad93aa;
+}
+
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
+    background-color: #968094;
+}
+
+.themeDefault-3M0dJU.valueChecked-3Bzkbm {
+    background-color: #ad93aa;
+}
+
 /* Server Settings Dropdown */
 .menu-3BZuDT,
 .popout-menu {
@@ -1077,7 +1089,8 @@
     border-color: #3e313c;
 }
 
-.topSectionNormal-2LlRG1 {
+.topSectionNormal-2LlRG1,
+.theme-dark .topSectionNormal-2LlRG1 {
     background-color: #3e313c;
 }
 
