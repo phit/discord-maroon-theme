@@ -1125,6 +1125,22 @@
     box-shadow: -20px 0 #3e313c,20px 0 #3e313c,-20px -1px 0 0 #463944,-20px 1px 0 #3e313c,20px 1px 0 #3e313c,20px -1px 0 #3e313c;
 }
 
+/* Video Embeds */
+.durationBarGrabber-1cFmrd,
+.durationBarProgress-3sJ7Pt,
+.durationBarProgress-3sJ7Pt:after,
+.durationBarProgress-3sJ7Pt:before {
+    background-color: #faccce;
+}
+
+.durationBarInteraction-23MVSC:hover .durationBarGrabber-1cFmrd {
+    background-color: #faccce;
+}
+
+.controls-2g-WJ6 {
+    background-color: rgba(62, 49, 60, 0.6);
+}
+
 /* Firefox fixes */
 .scrollbar-2so3Ly {
     background-color: #4d394b !important;
