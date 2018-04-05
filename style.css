@@ -333,11 +333,13 @@
 }
 
 /* Userlist */
+.theme-dark .members-1bid1J,
 .theme-dark .channel-members {
     background-color: #3e313c;
     border-left: 1px solid #4d394b;
 }
 
+.theme-dark .member-2FrNV0:hover .content-3JzEqq,
 .theme-dark .channel-members .member.popout-open,
 .theme-dark .channel-members .member:hover {
     background: linear-gradient(to right, #443442 85%, #3e313c)
