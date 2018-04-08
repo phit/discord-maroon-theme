@@ -1187,3 +1187,9 @@
 #bd-customcss-detach-editor {
     border-top: 1px solid rgb(77, 57, 75);
 }
+
+/* Member Count Plugin https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount */
+.theme-dark #memberCount {
+    background: #3e313c!important;
+    border-left: 1px solid #4d394b!important;
+}

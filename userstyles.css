@@ -1179,4 +1179,10 @@
 .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb::after, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb::after {
     background-color: #4c384a;
 }
+
+/* Member Count Plugin https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount */
+.theme-dark #memberCount {
+    background: #3e313c!important;
+    border-left: 1px solid #4d394b!important;
+}
 }
