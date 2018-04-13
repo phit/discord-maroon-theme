@@ -1176,6 +1176,11 @@
     background-color: #4c384a;
 }
 
+.theme-dark .popout .messages-popout-wrap .scrollbar,
+.theme-dark .popout .messages-popout-wrap .scrollbar::after {
+    background-color: #3e313c;
+}
+
 /* Member Count Plugin https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount */
 .theme-dark #memberCount {
     background: #3e313c!important;
