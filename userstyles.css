@@ -683,45 +683,38 @@
 }
 
 /* Popout */
-.theme-dark .themed-popout,
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: #3e313c;
     border: 1px solid hsla(0,0%,75%,.2);
 }
 
-.theme-dark .themed-popout .footer,
-.theme-dark .popout .messages-popout-wrap .footer {
+.theme-dark .messagesPopoutWrap-1VBR-j .footer-dHccYB {
     background-color: #4d394b;
 }
 
-.theme-dark .themed-popout .header,
-.theme-dark .popout .messages-popout-wrap .header {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
     background-color: #4d394b;
 }
 
-.theme-dark .messages-popout-wrap .messages-popout .empty-placeholder .body {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .emptyPlaceholder-2T_EMT .body-1fAJW- {
     color: hsla(0,0%,100%,.6);
 }
 
-.theme-dark .messages-popout-wrap .messages-popout .message-group,
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
     border: 1px solid hsla(0,0%,75%,.2);
     background-color: #3e313c;
 }
 
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover,
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover {
     border: 1px solid hsla(0,0%,75%,.4);
 }
 
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons,
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
     box-shadow: none;
     background-color: transparent;
 }
 
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO {
     background-color: #ad93aa;
 }
 
@@ -742,34 +735,28 @@
 }
 
 /* Server Settings Dropdown */
-.menu-3BZuDT,
-.popout-menu {
+.theme-dark .menu-3BZuDT {
     background: #4d394b;
 }
 
-.item-rK1j5B.invite-YM1l0n,
-.popout-menu .popout-menu-item.invite {
+.theme-dark .item-rK1j5B.invite-YM1l0n {
     color: hsla(0,0%,100%,.9);
 }
 
-.popout-menu .popout-menu-item:hover.invite {
+.theme-dark .item-rK1j5B:hover.invite-YM1l0n {
     color: #fff;
 }
 
-.item-rK1j5B.invite-YM1l0n:hover,
-.item-rK1j5B:hover,
-.popout-menu .popout-menu-item:hover {
+.theme-dark .item-rK1j5B:hover {
     background-color: #3e313c;
     color: #fff;
 }
 
-.separator-1hpa3S,
-.popout-menu .popout-menu-separator {
+.theme-dark .separator-1hpa3S {
     border-bottom: 1px solid #3e313c;
 }
 
-.item-rK1j5B,
-.popout-menu .popout-menu-item {
+.theme-dark .item-rK1j5B {
     color: hsla(0,0%,100%,.8);
 }
 
