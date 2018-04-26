@@ -358,10 +358,12 @@
     border-color: #4d394b;
 }
 
+.private-channel-recipients-invite .error-state.not-friends .btn,
 #friends .btn {
 	background-color: #ad93aa;
 }
 
+.private-channel-recipients-invite .error-state.not-friends .btn:hover,
 #friends .btn:hover {
 	background-color: #968094;
 }
@@ -681,15 +683,22 @@
 }
 
 /* Popout */
+.theme-dark .themed-popout {
+    border: 1px solid rgb(62, 49, 60);
+    background-color: #4d394b;
+}
+
 .theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: #3e313c;
     border: 1px solid hsla(0,0%,75%,.2);
 }
 
+.theme-dark .themedPopout-1uUNjn .footer-1aZ98z,
 .theme-dark .messagesPopoutWrap-1VBR-j .footer-dHccYB {
     background-color: #4d394b;
 }
 
+.theme-dark .themedPopout-1uUNjn .header-2Z2FaH,
 .theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
     background-color: #4d394b;
 }
