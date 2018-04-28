@@ -1157,48 +1157,6 @@
     background-color: rgba(62, 49, 60, 0.6);
 }
 
-/* Firefox fixes */
-.scrollbar-2so3Ly {
-    background-color: #4d394b !important;
-}
-
-.pad-3D5tOh {
-    background-color: #4d394b !important;
-}
-
-.channel-members-wrap .pad-3D5tOh,
-.search-results-wrap .pad-3D5tOh {
-    background-color: #3e313c !important;
-}
-
-.channel-members-wrap .scrollbar-2so3Ly,
-.search-results-wrap .scrollbar-2so3Ly {
-    background-color: #3e313c !important;
-}
-
-.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar, .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar::after, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar::after {
-    background-color: #3e313c;
-}
-
-.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .track, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .track {
-    background-color: #3e313c;
-    border-color: #3e313c;
-}
-
-.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb {
-    background-color: #3e313c;
-    border-color: #3e313c;
-}
-
-.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb::after, .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb::after {
-    background-color: #4c384a;
-}
-
-.theme-dark .popout .messages-popout-wrap .scrollbar,
-.theme-dark .popout .messages-popout-wrap .scrollbar::after {
-    background-color: #3e313c;
-}
-
 /* Member Count Plugin https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount */
 .theme-dark #memberCount {
     background: #3e313c!important;
