@@ -1059,6 +1059,104 @@
     background-color: rgba(62, 49, 60, 0.6);
 }
 
+/* Games Menu */
+.theme-dark .activityFeed-28jde9 {
+    background-color: #3e313c;
+}
+
+.theme-dark .card-7JP0BX {
+    background-color: #4d394b;
+}
+
+.article-FleDq5 {
+    background-color: #4d394b;
+}
+
+.theme-dark .header-1RC2Wb {
+    background-color: #312530;
+}
+
+.theme-dark .body-SKIE6r {
+    background-color: rgba(79, 84, 92, 0);
+}
+
+.theme-dark .header-1RC2Wb:hover {
+    background-color: rgba(43, 37, 40, 0.6);
+}
+
+.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover, .theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+    background-color: #ad93aa;
+}
+
+.theme-dark .dockItem-2kQDqg:hover {
+    background-color: #4d394b;
+}
+
+.paginationItem-3-MBTL:after {
+    background: -webkit-gradient(linear,right top,left top,from(transparent),to(#4d394b));
+    background: linear-gradient(270deg,transparent 0,#4d394b);
+}
+
+.timestamp-2TSQfJ {
+    color: #737a86;
+}
+
+.news-2GDtLJ {
+    background-color: #312530;
+}
+
+.newsLink-38Naqi:hover {
+    background-color: rgba(43, 37, 40, 0.6);
+}
+
+.theme-dark .headerText-2niCs_ {
+    border-top-color: hsla(0,0%,100%,.2);
+}
+
+.theme-dark .sectionLine-JjseS9 {
+    background-color: hsla(0,0%,100%,.3);
+}
+
+.theme-dark .gamePreview-9weYR2 {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(77,57,75,0.8);
+    background-color: #4d394b;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(77,57,75,0.8);
+}
+
+.theme-dark .publisher-2ZxPEd {
+    border-bottom: 1px solid hsla(0,0%,100%,.3);
+}
+
+.info-P9dFwH {
+    background-color: #3e313c;
+}
+
+.theme-dark .body-1SVoBw {
+    background-color: #3e313c;
+}
+
+.news-2KwXHF {
+    background-color: #3e313c;
+}
+
+.theme-dark .playersHeaderLine-2luL7r {
+    background-color: hsla(0,0%,100%,.3);
+}
+
+.popout-3sVMXz,
+.theme-dark .gamePreview-9weYR2 {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgb(93, 77, 93);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgb(93, 77, 93);
+}
+
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: #4d394b;
+}
+
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
 /* Firefox fixes */
 .theme-dark .search-results-wrap .scrollerWrap-2lJEkd .scrollbar-2rkZSL,
 .theme-dark .search-results-wrap .scrollerThemed-2oenus.themeGhost-28MSn0 .scrollbar-2rkZSL .pad-29zQak,
