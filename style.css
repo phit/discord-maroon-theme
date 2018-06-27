@@ -751,16 +751,21 @@
 }
 
 /* Small Popout */
+.theme-dark .container-1rPqdX,
 .small-popout-box {
     background: #4d394b;
     border: 1px solid #4d394b;
 }
 
+.theme-dark .button-1ZXqCA,
 .option-popout .btn-item {
     color: #cac6be;
 }
 
+.theme-dark .button-1ZXqCA:active, .theme-dark .button-1ZXqCA:hover,
 .option-popout .btn-item:hover {
+    background-color: #826a7f;
+    border-radius: 2px;
     color: #fffefe;
 }
 
@@ -1119,6 +1124,10 @@
     -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(77,57,75,0.8);
     background-color: #4d394b;
     box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(77,57,75,0.8);
+}
+
+.theme-dark .emptyState-N8MHmB {
+    border-color: hsla(0,0%,100%,.3);
 }
 
 .theme-dark .publisher-2ZxPEd {
