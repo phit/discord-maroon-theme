@@ -63,9 +63,8 @@
     background-color: #3e313c;
 }
 
-.theme-dark .message-group .mentioned .message-text {
+.theme-dark .isMentioned-N-h9aa {
     background: rgba(255, 255, 255, .08);
-    border-right: 2px solid #fff;
 }
 
 .message-group .mentioned .message-text:after {
@@ -678,7 +677,8 @@
 }
 
 /* Popout */
-.theme-dark .themed-popout {
+.theme-dark .themed-popout,
+.theme-dark .messageGroupWrapper-o-Zw7G {
     border: 1px solid rgb(62, 49, 60);
     background-color: #4d394b;
 }
@@ -702,20 +702,24 @@
     color: hsla(0,0%,100%,.6);
 }
 
+.theme-dark .messageGroupWrapper-o-Zw7G,
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
     border: 1px solid hsla(0,0%,75%,.2);
     background-color: #3e313c;
 }
 
+.theme-dark .messageGroupWrapper-o-Zw7G:hover,
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
     border: 1px solid hsla(0,0%,75%,.4);
 }
 
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug,
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
     box-shadow: none;
     background-color: transparent;
 }
 
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug .jumpButton-3DTcS_,
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
     background-color: #ad93aa;
 }
