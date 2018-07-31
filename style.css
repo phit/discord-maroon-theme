@@ -755,19 +755,17 @@
 }
 
 /* Small Popout */
-.theme-dark .container-1rPqdX,
+.theme-dark .container-3cGP6G,
 .small-popout-box {
     background: #4d394b;
     border: 1px solid #4d394b;
 }
 
-.theme-dark .button-1ZXqCA,
-.option-popout .btn-item {
+.theme-dark .item-2J1YMK {
     color: #cac6be;
 }
 
-.theme-dark .button-1ZXqCA:active, .theme-dark .button-1ZXqCA:hover,
-.option-popout .btn-item:hover {
+.theme-dark .item-2J1YMK:active, .theme-dark .item-2J1YMK:hover {
     background-color: #826a7f;
     border-radius: 2px;
     color: #fffefe;
