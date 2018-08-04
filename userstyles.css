@@ -96,6 +96,15 @@
     background-color: #251f25;
 }
 
+.theme-dark .hasMore-3e72_v button {
+    background: #352c35;
+    border: 1px solid #352c35;
+}
+
+.hasMore-3e72_v button {
+    color: hsla(0,0%,100%,.6);
+}
+
 .theme-dark .embedPill-1Zntps {
     background-color: #ad93aa;
 }
@@ -823,6 +832,14 @@
 /* Searchbar */
 .search-bar.search-bar-light {
 	background-color: #4d394b;
+}
+
+.search-bar-light input {
+	color: #fff;
+}
+
+.search-bar-light .searchBarInner-1_Tg2R {
+    background-color: hsla(0,0%,100%,.1);
 }
 
 .search-bar.search-bar-light input::-webkit-input-placeholder {
