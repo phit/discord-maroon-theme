@@ -146,8 +146,16 @@
     background-color: #968094;
 }
 
-/* Channel Bar */
+/* Reaction */
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf {
+    background: rgba(145, 95, 148, 0.3);
+}
 
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {
+    color: #e0dcde;
+}
+
+/* Channel Bar */
 .channels-Ie2l6A, 
 .channels-wrap{
 	background-color: #3e313c;
@@ -165,7 +173,8 @@
 }
 
 .private-channels .channel.selected a,
-.contentSelectedText-3wUhMi {
+.contentSelectedText-3wUhMi,
+.privateChannels-1nO12o .channel-2fhmY8:hover .selectedLink-3dsNZ6 {
     background-color: #3e313c;
 }
 
@@ -238,11 +247,14 @@
     background-color: #382c36;
 }
 
-
 /* Account & Voice Controls */
 .container-2Thooq {
     background: #4d394b;
     box-shadow: 0 1px 0 #4d394b, inset 0 1px 0 rgba(0,0,0,.1);
+}
+
+.container-1UB9sr {
+    border-bottom: none;
 }
 
 /* Voice Call */
