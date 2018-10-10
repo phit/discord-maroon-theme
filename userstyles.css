@@ -1147,6 +1147,33 @@
     background-color: rgba(62, 49, 60, 0.6);
 }
 
+/* file uploads */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+    background: #3e313c;
+}
+
+.uploadModal-2ifh8j {
+    background-color: #3e313c;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D {
+    background-color: #4c384a;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+    background-color: #5b6dae;
+    margin-left: 4px;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary {
+    background-color: #ad93aa;
+    color: #fff;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+    background-color: #5a4f59;
+}
+
 /* Games Menu */
 .theme-dark .activityFeed-28jde9 {
     background-color: #3e313c;
