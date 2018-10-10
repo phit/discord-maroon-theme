@@ -102,6 +102,10 @@
     background-color: #251f25;
 }
 
+.newMessagesBar-mujexs button:last-child {
+    color: inherit;
+}
+
 .theme-dark .hasMore-3e72_v button {
     background: #352c35;
     border: 1px solid #352c35;
@@ -810,10 +814,15 @@
 }
 
 /* Search Popout */
-.theme-dark .searchPopout-1vUlP3 {
+.theme-dark .searchPopout-1vUlP3,
+.theme-dark .container-3ayLPN {
     box-shadow: none;
     background-color: #4d394b;
     border: 1px solid rgba(115, 103, 116, 0.44);
+}
+
+.theme-dark .focused-2bY0OD {
+    background-color: #3e313c;
 }
 
 .theme-dark .resultsGroup-r_nuzN:before {
@@ -825,12 +834,24 @@
 }
 
 .theme-dark .option-96V44q.selected-rZcOL- {
-    background-color: #3e313c;
+    background-color: #443442;
+}
+
+.theme-dark .option-96V44q:after {
+    background: transparent;
+}
+
+.theme-dark .option-96V44q.selected-rZcOL-:after {
+    background: transparent;
 }
 
 .theme-dark .option-96V44q.user-O3Czj0 .displayedNick-3xxvzU,
 .search-popout .option .non-text {
     color: hsla(0,0%,100%,.4);
+}
+
+.theme-dark .queryContainer-RKFJW- {
+    border-bottom-color: #4d394b;
 }
 
 /* User Popout */
@@ -898,6 +919,10 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+    background-color: #3e313c;
+}
+
 /* Context Menu */
 .theme-dark.contextMenu-HLZMGh,
 .theme-dark.context-menu,
@@ -931,6 +956,7 @@
 /* Calendar */
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker {
     background-color: #4d394b;
+    padding: 18px;
 }
 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
@@ -1004,9 +1030,26 @@
 	background-color: #3e313c;
 }
 
+.authBox-hW6HRx {
+    background: #4c384a;
+    color: #c3c3c3;
+}
+
+.lookLink-9FtZy-.colorBrand-3pXr91 {
+    color: #f5f5f5;
+}
+
 .barFill-23-gu-,
 .slider-bar-fill {
     background: #ad93aa;
+}
+
+.theme-dark .bubble-3we2di:before {
+    border-top-color: #4d394b;
+}
+
+.theme-dark .bubble-3we2di {
+    background-color: #4d394b;
 }
 
 .connecting {
