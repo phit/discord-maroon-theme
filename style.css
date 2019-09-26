@@ -12,7 +12,7 @@
     --background-primary: #3e313c;
     --background-secondary: #4d394b;
     --background-tertiary: #352c34;
-    --background-accent: #4f545c;
+    --background-accent: #715371;
     --background-floating: #3e313c;
     --background-modifier-hover: #443442;
     --background-modifier-active: rgba(62,49,60,1);
@@ -373,6 +373,7 @@
 }
 
 .theme-dark .themed-popout .footer,
+.theme-dark .messagesPopout-24nkyi,
 .theme-dark .messagesPopoutWrap-1MQ1bW .footer-1kmXd4,
 .theme-dark .modal-3HD5ck .footer-1W7DZI {
     background-color: var(--background-secondary);
@@ -452,10 +453,18 @@
     background-color: var(--primary-btn-hover);
 }
 
-.lookFilled-1Gx00P.colorBrand-3pXr91:active,
-.lookFilled-1Gx00P.colorBrand-3pXr91:selected {
-    background-color: var(--primary-btn-hover);
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+    background-color: var(--primary-btn-active);
 }
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:selected {
+    background-color: var(--primary-btn-active);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:active {
+    background-color: var(--primary-btn-active);
+}
+
 .theme-dark .friendSelected-3J_Uh8 {
     background-color: var(--background-modifier-hover);
 }
@@ -500,6 +509,8 @@
 
 /* User Popout */
 .theme-dark .body-3iLsc4,
+.theme-dark .footer-1fjuF6,
+.theme-dark .bodyInner-245q0L,
 .theme-dark .footer-1fjuF6 {
     background: var(--background-primary);
 }
@@ -636,6 +647,21 @@
 
 .uploadModal-2ifh8j .inner-3nWsbo {
     border: 2px dashed var(--text-normal);
+}
+
+/* reactions */
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf {
+    background: rgba(145, 95, 148, 0.3);
+}
+
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {
+    color: #e0dcde;
+}
+
+/* attachments */
+.theme-dark .attachment-33OFj0 {
+    border-color: rgba(77, 65, 78, 0.6);
+    background-color: rgba(74, 58, 72, 0.3);
 }
 
 /* Member Count Plugin https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount */
