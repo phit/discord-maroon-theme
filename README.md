@@ -1,8 +1,6 @@
 # discord-maroon-theme
 Based on Slack's aubergine/maroon style
 
-3
-
 # Browser
 
 * switch Discord to dark theme (Settings > Appearance)
