@@ -13,7 +13,7 @@
     --background-secondary: #4d394b;
     --background-secondary-alt: #342932;
     --background-tertiary: #352c34;
-    --background-accent: #4f545c;
+    --background-accent: #ffffff3d;
     --background-floating: #3e313c;
     --background-message-hover: #3e313c;
     --background-modifier-hover: #443442;
@@ -39,16 +39,13 @@
     --primary-btn: #ad93aa;
     --primary-btn-hover: rgba(173, 147, 170, 0.8);
     --primary-btn-active: rgba(173, 147, 170, 0.6);
-}
-
-/* Scrollbar */
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: var(--background-secondary);
-    border-color: var(--background-primary);
-}
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-    background-color: var(--background-primary);
-    border: 3px solid var(--background-primary);
+    --scrollbar-thin-thumb: #342932;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #4d394b;
+    --scrollbar-auto-track: #342932;
+    --scrollbar-auto-scrollbar-color-thumb: #4d394b;
+    --scrollbar-auto-scrollbar-color-track: #342932;
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
 }
 
 /* Firefox Scrollbar */
@@ -468,7 +465,7 @@
 }
 
 /* channel new message top bar */
-.newMessagesBar-mujexs,
+.newMessagesBar-265mhP,
 .unread-1xRYoj {
     background-color: var(--background-modifier-hover);
     color: var(--text-normal);
@@ -682,6 +679,16 @@
 .theme-dark .attachment-33OFj0 {
     border-color: rgba(77, 65, 78, 0.6);
     background-color: rgba(74, 58, 72, 0.3);
+}
+
+/* message context menu */
+.colorDefault-2K3EoJ.focused-3afm-j, 
+.colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
+    background-color: var(--background-secondary);
+}
+
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+    background-color: var(--background-secondary);
 }
 
 /* Member Count Plugin https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount */
