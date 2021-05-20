@@ -731,4 +731,8 @@
     display: none;
 }
 
+.theme-dark .inset-3sAvek {
+    background-color: #4d394b;
+}
+
 }
