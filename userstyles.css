@@ -435,6 +435,7 @@
 }
 
 /* friends list big bg */
+.theme-dark .container-2cd8Mz,
 .theme-dark .container-3gCOGc {
     background-color: var(--background-primary);
 }
@@ -587,6 +588,11 @@
 /* mention message */
 .theme-dark .isMentioned-N-h9aa {
     background: rgba(123, 94, 123, 0.3);
+}
+
+/* mention autocomplete */
+.theme-dark .selected-1Tbx07 {
+    background-color: var(--background-primary);
 }
 
 /* new messages banner */
