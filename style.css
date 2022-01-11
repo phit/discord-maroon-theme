@@ -466,13 +466,13 @@
 }
 
 /* channel new message top bar */
-.newMessagesBar-265mhP,
+.newMessagesBar-1hF-9G,
 .unread-1xRYoj {
     background-color: var(--background-modifier-hover);
     color: var(--text-normal);
 }
 
-.newMessagesBar-mujexs:hover,
+.newMessagesBar-1hF-9G:hover,
 .unread-1xRYoj:hover {
     background-color: var(--background-modifier-active);
 }
@@ -486,7 +486,7 @@
     fill: var(--interactive-normal);
 }
 
-.unreadPill-2HyYtt {
+.unreadPill-3nEWYM {
     color: var(--background-primary);
     background-color: var(--interactive-normal);
 }
@@ -594,26 +594,8 @@
 }
 
 /* new messages banner */
-.theme-dark .divider-3gKybi span,
-.theme-dark .divider-3gKybi:before {
-    background-color: var(--background-primary);
-}
-
-.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
-    border-color: #c5c2c5;
-}
-
-.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
-    color: #c5c2c5;
-}
-
-.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
-    color: #c5c2c5;
-}
-
-.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after,
-.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
-	background: #c5c2c5;
+.divider-2rZFJK {
+    --divider-color: hsl(300,calc(var(--saturation-factor, 1)*3%),77%);
 }
 
 /* video embeds */
@@ -688,13 +670,13 @@
 }
 
 /* message context menu */
-.colorDefault-2K3EoJ.focused-3afm-j, 
-.colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
-    background-color: var(--background-secondary);
+.colorDefault-CDqZdO.focused-3qFvc8, 
+.colorDefault-CDqZd0:hover:not(.hideInteraction-2jPGL_) {
+    background-color: var(--background-secondary) !important;
 }
 
-.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
-    background-color: var(--background-secondary);
+.colorDefault-CDqZd0:active:not(.hideInteraction-2jPGL_) {
+    background-color: var(--background-secondary) !important;
 }
 
 /* Member Count Plugin https://github.com/Arashiryuu/crap/tree/master/ToastIntegrated/MemberCount */
