@@ -50,6 +50,35 @@
     --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
 }
 
+[data-popout-root], html {
+    --brand-experiment-100: hsl(300,calc(var(--saturation-factor, 1)*7.7%),98.2%);
+    --brand-experiment-130: hsl(300,calc(var(--saturation-factor, 1)*8.7%),96.9%);
+    --brand-experiment-160: hsl(300,calc(var(--saturation-factor, 1)*8.4%),94.9%);
+    --brand-experiment-200: hsl(300,calc(var(--saturation-factor, 1)*8.3%),92.9%);
+    --brand-experiment-230: hsl(300,calc(var(--saturation-factor, 1)*8.7%),91%);
+    --brand-experiment-260: hsl(300,calc(var(--saturation-factor, 1)*8.6%),88.6%);
+    --brand-experiment-300: hsl(300,calc(var(--saturation-factor, 1)*8.6%),85.9%);
+    --brand-experiment-330: hsl(300,calc(var(--saturation-factor, 1)*8.5%),81.6%);
+    --brand-experiment-360: hsl(300,calc(var(--saturation-factor, 1)*8.6%),77.5%);
+    --brand-experiment-400: hsl(300,calc(var(--saturation-factor, 1)*8.6%),71.8%);
+    --brand-experiment-430: hsl(300,calc(var(--saturation-factor, 1)*8.5%),69.8%);
+    --brand-experiment-460: hsl(300,calc(var(--saturation-factor, 1)*8.5%),67.5%);
+    --brand-experiment:     hsl(300,calc(var(--saturation-factor, 1)*8.0%),64.7%);
+    --brand-experiment-500: hsl(300,calc(var(--saturation-factor, 1)*8.5%),64.7%);
+    --brand-experiment-530: hsl(300,calc(var(--saturation-factor, 1)*6.6%),58.8%);
+    --brand-experiment-560: hsl(300,calc(var(--saturation-factor, 1)*5.1%),52.4%);
+    --brand-experiment-600: hsl(300,calc(var(--saturation-factor, 1)*4.6%),44.1%);
+    --brand-experiment-630: hsl(300,calc(var(--saturation-factor, 1)*4.6%),38.2%);
+    --brand-experiment-660: hsl(300,calc(var(--saturation-factor, 1)*4.7%),33.3%);
+    --brand-experiment-700: hsl(300,calc(var(--saturation-factor, 1)*4.7%),25.9%);
+    --brand-experiment-730: hsl(300,calc(var(--saturation-factor, 1)*4.6%),24.3%);
+    --brand-experiment-760: hsl(300,calc(var(--saturation-factor, 1)*4.6%),22.2%);
+    --brand-experiment-800: hsl(300,calc(var(--saturation-factor, 1)*4.7%),19.4%);
+    --brand-experiment-830: hsl(300,calc(var(--saturation-factor, 1)*4.7%),14.9%);
+    --brand-experiment-860: hsl(300,calc(var(--saturation-factor, 1)*4.6%),9.6%);
+    --brand-experiment-900: hsl(300,calc(var(--saturation-factor, 1)*5.0%),3.1%);
+}
+
 /* Firefox Scrollbar */
 .theme-dark .membersWrap-2h-GB4 .scrollerWrap-2lJEkd .scrollbar-2rkZSL,
 .theme-dark .membersWrap-2h-GB4 .scrollerWrap-2lJEkd .scrollbar-2rkZSL .pad-29zQak,
@@ -333,7 +362,7 @@
     background-color: var(--background-secondary);
 }
 
-.theme-dark .focused-2bY0OD {
+.theme-dark .focused-2FU0YH {
     background-color: var(--background-primary);
 }
 
@@ -519,12 +548,6 @@
 /* tenor gif search */
 .theme-dark .autocomplete-3NRXG8 {
     background-color: var(--background-secondary);
-}
-
-/* Full Size User Popout */
-.headerNormal-T_seeN {
-    background: #6c5869 url('data:image/png;base64,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');
-    background-size: 270px 213px;
 }
 
 /* User Popout */
@@ -727,4 +750,28 @@
     background-color: #4d394b;
 }
 
+/* Discovery */
+.theme-dark .pageWrapper-2PwDoS {
+    background-color: var(--background-primary);
+}
+
+.theme-dark .searchBox-pyIJJj {
+    background-color: var(--background-tertiary);
+}
+
+/* Active now */
+.theme-dark .outer-2JOHae.active-1W_Gl9, .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
+    background-color: var(--background-secondary-alt);
+}
+
+/* new group dm */
+.theme-dark .root-g14mjS {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .friendSelected-3cwmD7 {
+    background-color: rgb(16 16 16 / 30%);
+    color: #fff;
+}
+    
 }
