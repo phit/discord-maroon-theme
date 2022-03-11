@@ -372,19 +372,20 @@
     color: #cacbce;
 }
 
-.theme-dark .option-2KkUJO.selected-rZcOL- {
+.theme-dark .option-ayUoaq[aria-selected=true],
+.theme-dark .option-ayUoaq.selected-rZcOL- {
     background-color: #443442;
 }
 
-.theme-dark .option-2KkUJO:after {
+.theme-dark .option-ayUoaq:after {
     background: transparent;
 }
 
-.theme-dark .option-2KkUJO.selected-rZcOL-:after {
+.theme-dark .option-ayUoaq.selected-rZcOL-:after {
     background: transparent;
 }
 
-.theme-dark .option-2KkUJO.user-O3Czj0 .displayedNick-3xxvzU,
+.theme-dark .option-ayUoaq.user-O3Czj0 .displayedNick-3xxvzU,
 .search-popout .option .non-text {
     color: hsla(0,0%,100%,.4);
 }
@@ -478,7 +479,7 @@
     box-shadow: var(--elevation-high);
 }
 
-.theme-dark .footer-3rDWdC {
+.theme-dark .footer-31IekZ {
     background-color: var(--background-secondary);    
 }
 
