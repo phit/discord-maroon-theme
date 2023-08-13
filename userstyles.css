@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name           Discord Dark Maroon
+@namespace      https://github.com/phit
+@homepageURL    https://github.com/phit/discord-maroon-theme
+@updateURL      https://github.com/phit/discord-maroon-theme/blob/master/userstyles.css
+@author         phit <theme@phit.link>
+@description    `A dark theme for Discord based on Slack's aubergine/maroon style.Tested with Chrome and Firefox Nightly.`
+@version        20230813.10.58
+@license        CC0-1.0
+@preprocessor   uso
+==/UserStyle== */
 @-moz-document domain("discord.com") {
 
 .theme-dark {
@@ -6,7 +17,7 @@
     --text-normal: #dcddde;
     --text-muted: hsla(0,0%,100%,.6);
     --text-link: #00b0f4;
-    --channels-default: rgba(255,255,255,0.7);;
+    --channels-default: rgba(255,255,255,0.7)
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;

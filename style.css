@@ -4,7 +4,7 @@
     --text-normal: #dcddde;
     --text-muted: hsla(0,0%,100%,.6);
     --text-link: #00b0f4;
-    --channels-default: rgba(255,255,255,0.7);;
+    --channels-default: rgba(255,255,255,0.7);
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
@@ -781,7 +781,3 @@
     background-color: var(--background-secondary);
 }
 
-.theme-dark .friendSelected-3cwmD7 {
-    background-color: rgb(16 16 16 / 30%);
-    color: #fff;
-}
